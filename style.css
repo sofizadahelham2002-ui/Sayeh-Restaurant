@@ -1,0 +1,141 @@
+body {
+    background: url(Photo/IMG_4163.JPG) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dark .dark-text-white {
+    color: white !important;
+}
+
+.dark .dark-bg-body-dark {
+    background: url(Photo/IMG-20260515-WA0016.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.lh-0 {
+    line-height: 0;
+    color: black;
+}
+
+.darkmode-switch {
+    width: 2.5em !important;
+    height: 1.5rem !important;
+}
+
+/* header */
+.header {
+    padding-top: 90px;
+    color: black;
+}
+
+.header .countdown div {
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    margin: 10px 10px;
+    width: 100px;
+    padding: 15px 0;
+}
+
+@media (max-width : 575px) {
+    .header .countdown div {
+        margin: 10px 8px;
+        width: 75px;
+        padding: 15px 0;
+    }
+}
+
+.text-gray {
+    color: black;
+}
+
+.sayeh {
+    color: rgb(145, 2, 145);
+}
+
+/* iTyped */
+.ityped-cursor {
+    font-size: 2.2rem;
+    opacity: 1;
+    -webkit-animation: blink 0.3s infinite;
+    -moz-animation: blink 0.3s infinite;
+    animation: blink 0.3s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+.ser-btn {
+    background-color: rgb(112, 1, 112);
+    color: white;
+}
+
+.header .social-links a {
+    font-size: 19px;
+    color: rgb(165, 1, 165);
+    margin: 0 3px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transition: all 0.3s;
+}
+
+.header .social-links a:hover {
+    background-color: #d8d6d6;
+}
+
+/* contact us */
+.contact hr {
+    width: 80px;
+    height: 5px;
+}
+
+.contact .card {
+    border-top: 4px solid rgb(165, 1, 165);
+    border-bottom: 4px solid rgb(165, 1, 165);
+    border-radius: 0.25rem;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.164);
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+}
+
+.contact .card i {
+    font-size: 20px;
+    color: #fff;
+    width: 48px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.contact .card i:hover {
+    background-color: purple;
+    color: #fff;
+}
